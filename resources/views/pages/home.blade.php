@@ -1,0 +1,9 @@
+@extends('layouts.app')
+@section('content')
+@include('components.header')
+@include('components.hero')
+@include('components.about')
+@include('components.stats')
+@include('components.whyus')
+@include('components.menu')
+@endsection
